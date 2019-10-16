@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -104,6 +104,7 @@ module.exports =
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/Users/ravi.shankar/Documents/POC/React-With-Server/components/input/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -114,16 +115,31 @@ const Input = ({
   onChange
 }) => {
   return __jsx("div", {
-    className: "form-group"
+    className: "form-group",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: undefined
   }, __jsx("label", {
-    htmlFor: "{name}"
+    htmlFor: "{name}",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: undefined
   }, label), __jsx("input", {
     value: value,
     onChange: onChange,
     id: name,
     name: name,
     type: "text",
-    className: "form-control"
+    className: "form-control",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: undefined
   }));
 };
 
@@ -150,6 +166,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _input_index__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../input/index */ "./components/input/index.js");
 
 
+var _jsxFileName = "/Users/ravi.shankar/Documents/POC/React-With-Server/components/login/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 
@@ -195,41 +212,107 @@ class Login extends react__WEBPACK_IMPORTED_MODULE_2__["Component"] {
     const {
       login
     } = this.state;
-    return __jsx(react__WEBPACK_IMPORTED_MODULE_2___default.a.Fragment, null, __jsx("div", {
-      className: "container"
+    return __jsx(react__WEBPACK_IMPORTED_MODULE_2___default.a.Fragment, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 37
+      },
+      __self: this
+    }, __jsx("div", {
+      className: "container",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 38
+      },
+      __self: this
     }, __jsx("h1", {
-      className: "text-center"
+      className: "text-center",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 39
+      },
+      __self: this
     }, "Login Page..."), __jsx("form", {
-      onSubmit: this.handleLoginSubmit
+      onSubmit: this.handleLoginSubmit,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 43
+      },
+      __self: this
     }, __jsx(_input_index__WEBPACK_IMPORTED_MODULE_4__["default"], {
       name: "username",
       value: login.username,
       label: "Email Address",
-      onChange: this.handleChange
+      onChange: this.handleChange,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 45
+      },
+      __self: this
     }), __jsx(_input_index__WEBPACK_IMPORTED_MODULE_4__["default"], {
       name: "password",
       value: login.password,
       label: "Password",
-      onChange: this.handleChange
+      onChange: this.handleChange,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 51
+      },
+      __self: this
     }), __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
-      href: "/home"
+      href: "/home",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 58
+      },
+      __self: this
     }, __jsx("button", {
       type: "submit",
-      className: "btn btn-primary"
+      className: "btn btn-primary",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 59
+      },
+      __self: this
     }, "Submit")), __jsx("button", {
       type: "submit",
       className: "btn btn-primary",
-      onClick: this.handlelogin
+      onClick: this.handlelogin,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 61
+      },
+      __self: this
     }, "Submit For Data"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
-      href: "/signup"
+      href: "/signup",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 64
+      },
+      __self: this
     }, __jsx("button", {
       type: "submit",
-      className: "btn btn-primary"
+      className: "btn btn-primary",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 65
+      },
+      __self: this
     }, "Not A Member")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
-      href: "/forgot-password"
+      href: "/forgot-password",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 67
+      },
+      __self: this
     }, __jsx("button", {
       type: "submit",
-      className: "btn btn-primary"
+      className: "btn btn-primary",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 68
+      },
+      __self: this
     }, "Forgot Password")))));
   }
 
@@ -2044,17 +2127,30 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_login__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/login */ "./components/login/index.js");
+var _jsxFileName = "/Users/ravi.shankar/Documents/POC/React-With-Server/pages/login/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-const Index = () => __jsx("div", null, __jsx(_components_login__WEBPACK_IMPORTED_MODULE_1__["default"], null));
+const Index = () => __jsx("div", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 4
+  },
+  __self: undefined
+}, __jsx(_components_login__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 5
+  },
+  __self: undefined
+}));
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
 
 /***/ }),
 
-/***/ 5:
+/***/ 3:
 /*!************************************!*\
   !*** multi ./pages/login/index.js ***!
   \************************************/
